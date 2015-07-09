@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:NSNotification_Keng_1/NSNotification_Keng_1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSNotification_Keng_2/NSNotification_Keng_2.xcodeproj">
+   </FileRef>
+</Workspace>

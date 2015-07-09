@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B03F1EDF-953D-40B5-874A-561C95F5ED25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSNotification_Kengs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D8D36FDB8E373B1E1E69861E21AC0333B100128</key>
+		<string>https://github.com/Lobster-King/iOS-Debug-Notes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSNotification_Kengs.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D8D36FDB8E373B1E1E69861E21AC0333B100128</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lobster-King/iOS-Debug-Notes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D8D36FDB8E373B1E1E69861E21AC0333B100128</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D8D36FDB8E373B1E1E69861E21AC0333B100128</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Debug-Notes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

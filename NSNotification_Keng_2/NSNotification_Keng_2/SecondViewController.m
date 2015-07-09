@@ -16,7 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNotification:) name:@"notification_2" object:nil];
+    
+    
+    
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)handleNotification:(NSNotification *)notification{
+    
+    NSLog(@"handle notification");
+    
+}
+
+- (void)dealloc{
+    //do not remove observer
+//    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)didReceiveMemoryWarning {

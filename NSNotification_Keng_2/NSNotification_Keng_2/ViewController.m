@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic, retain) UIButton *customButton;
+@property (nonatomic, retain) SecondViewController *sVC;
 
 @end
 
@@ -16,7 +21,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _customButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    _customButton.center = self.view.center;
+    [_customButton addTarget:self action:@selector(handleAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_customButton];
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)handleAction{
+    
+    _sVC = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:_sVC animated:YES];
+    [self performSelector:@selector(handlePostNotification) withObject:nil afterDelay:2.0];
+    
+}
+
+- (void)handlePostNotification{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"notification_2" object:nil];
 }
 
 - (void)didReceiveMemoryWarning {

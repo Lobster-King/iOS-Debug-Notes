@@ -1,2 +1,2 @@
-# iOS-Dubug-Notes
+# iOS-Debug-Notes
 Some debug notes during developing iOS applications
